@@ -1,34 +1,27 @@
-# Rapido Captain Onboarding — Take-Home Analysis
+# Rapido Captain Onboarding and Airport Supply, Take-Home Analysis
 
 ## How to Run
 
 ```bash
 # Install dependencies
-pip install pandas numpy matplotlib seaborn scipy
+pip install -r requirements.txt
 
 # Run the complete analysis
 python rapido_analysis.py
 ```
 
-All charts are saved to the `output/` folder.
+The script runs end to end from the raw CSVs in a single command. It resolves the data folder relative to its own location, so it works from any working directory. All charts are saved to the `output/` folder, which is created on the first run.
 
 ## Repository Structure
 
 ```
 Data/                     # Raw CSV files (7 files, per brief)
-rapido_analysis.py        # Main analysis script — runs end-to-end
-output/                   # Generated charts (created on first run)
-  A1_funnel.png           # Onboarding funnel visualization
-  A2_segments.png         # Approval rate by segment
-  A2_failure_heatmap.png  # Doc x failure reason heatmap
-  B1_airport_heatmap.png  # Airport fill rate by hour x day
-  B2_airport_trips.png    # Post-trip economics
-  deep_dive_1.png         # Retry behavior, speed, verification
-  deep_dive_2_airport.png # Airport hourly micro-economics
-memo.md                   # 2-page executive memo
-deck.md                   # 6-slide deck content
+rapido_analysis.py        # Main analysis script, runs end-to-end
+requirements.txt          # Python dependencies
 README.md                 # This file
 ```
+
+The two-page memo and the six-slide deck are submitted separately by email.
 
 ## Key Methodological Choices
 
