@@ -30,14 +30,6 @@ Data/                       # The seven raw CSVs, as provided
 rapido_analysis.py          # Main analysis script, runs Parts A and B end to end
 requirements.txt            # Python dependencies
 README.md                   # This file
-output/                     # Generated charts, created on first run
-  A1_funnel.png             # Onboarding funnel visualization
-  A2_segments.png           # Approval rate by segment
-  A2_failure_heatmap.png    # Document x failure reason heatmap
-  B1_airport_heatmap.png    # Airport fill rate by hour x day
-  B2_airport_trips.png      # Post-trip economics
-  deep_dive_1.png           # Retry behaviour, speed, verification
-  deep_dive_2_airport.png   # Airport hourly micro-economics
 ```
 
 The two-page memo and the six-slide deck are submitted separately by email.
