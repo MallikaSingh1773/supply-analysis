@@ -15,7 +15,14 @@ The script runs end to end from the raw CSVs in a single command. It resolves th
 ## Repository Structure
 
 ```
-Data/                     # Raw CSV files (7 files, per brief)
+Data/                       # The seven raw CSVs, as provided
+  captains.csv
+  doc_events.csv
+  approvals.csv
+  activation.csv
+  nudges.csv
+  airport_hourly.csv
+  airport_trips.csv
 rapido_analysis.py        # Main analysis script, runs end-to-end
 requirements.txt          # Python dependencies
 README.md                 # This file
