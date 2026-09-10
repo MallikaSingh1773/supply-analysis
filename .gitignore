@@ -1,0 +1,23 @@
+# Deliverables submitted by email, not tracked in this repo
+*.pdf
+*.pptx
+memo.md
+deck.md
+
+# Generated charts (recreated by running the script)
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Office temp/lock files
+~$*
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
